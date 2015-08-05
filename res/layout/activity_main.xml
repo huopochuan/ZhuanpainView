@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+  
+ >
+
+    
+    <com.wyc.zhuanpainview.ZhuanpanView
+        android:id="@+id/zview"
+        android:layout_centerInParent="true"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:padding="3dp"
+        />
+     <Button
+         android:id="@+id/btn_zhan"
+         android:background="@drawable/icon_bengin"
+         android:layout_centerInParent="true"
+         android:layout_width="wrap_content"      
+         android:layout_height="wrap_content"
+         />
+     
+
+</RelativeLayout>
